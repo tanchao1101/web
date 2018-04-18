@@ -1,0 +1,94 @@
+body,div,h1,h2,h3,h4,h5,a,img,b,input,strong,span,var,em,ol,ul,dt,dd,dl,li,p,table,tr,th,td,button,header,footer,nav,select,option{margin:0;padding:0;outline: 0;-webkit-box-sizing: border-box;-moz-box-sizing: border-box;box-sizing: border-box;-webkit-touch-callout: none;-webkit-user-select:none;-moz-user-select:none;}
+.swiper-container,.swiper-slide{
+	width:100%;
+  height:100vh;
+  font-size: 1rem;
+}
+.swiper-slide{
+	background: #fff;
+}
+.page1{
+  background: url("http://localhost:8080/static/images/bg1.png") no-repeat;
+  background-size: cover;
+}
+#bodymovin{
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	svg{
+		width: 100%;
+		height: 100%;
+	}
+	.test{
+		position: absolute;
+		top: 6rem;
+		left: 3rem;
+	}
+}
+
+.page{
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+	position: absolute;
+	left: 0;
+	top: 0;
+}
+#loginName{
+  width: 80%;
+  height: 1rem;
+  display: block;
+}
+#password{
+  width: 80%;
+  height: 1rem;
+  display: block;
+}
+// .testbox{
+// 	width: 100px;
+// 	height: 100px;
+// 	background: #de3ea1;
+// 	-moz-transition: all 2s; /* Firefox 4 */
+// 	-webkit-transition: all 2s; /* Safari 和 Chrome */
+// 	-o-transition: all 2s; /* Opera */
+// 	transition: all 2s;
+// }
+// .testbox2{
+// 	width: 200px;
+// 	height: 200px;
+// }
+.testbox{
+	width: 100%;
+	height: 100%;
+	// background: url("../images/test1.jpg");
+	animation:myfirst 5s;
+	-moz-animation:myfirst 5s; /* Firefox */
+	-webkit-animation:myfirst 5s; /* Safari and Chrome */
+	-o-animation:myfirst 5s; /* Opera */
+}
+@keyframes myfirst
+{
+	from {transform:scale(1,1); }
+	to {transform:scale(1.2,1.2);}
+}
+
+// @-moz-keyframes myfirst /* Firefox */
+// {
+// 	from {background: red;}
+// 	to {background: yellow;}
+// }
+
+// @-webkit-keyframes myfirst /* Safari 和 Chrome */
+// {
+// 	from {background: red;}
+// 	to {background: yellow;}
+// }
+
+// @-o-keyframes myfirst /* Opera */
+// {
+// 	from {background: red;}
+// 	to {background: yellow;}
+// }
+
